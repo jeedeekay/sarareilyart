@@ -5,6 +5,7 @@ body {
 h1, h6 {
     /* font-family: 'Monoton', cursive; */
     font-family: 'Cinzel', serif;
+    color: #000;
 }
 
 li {
@@ -19,7 +20,7 @@ li {
 #reilyNavBar .nav-link {
     transition: 0.5s ease;
     background-color: white;
-    color: black;
+    color: #6c757d;
 }
 
 .featuredImg {
@@ -34,6 +35,13 @@ li {
     width: 25rem;
 }
 
-.footerLogo {
+#footerLogo {
     height: 5rem;
+    transition: 0.5s ease;
+    transform: scale(1);
+}
+
+#footerLogo:hover {
+    transition: 0.5s ease;
+    transform: scale(0.9);
 }
