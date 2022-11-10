@@ -1,3 +1,39 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h6 {
+    /* font-family: 'Monoton', cursive; */
+    font-family: 'Cinzel', serif;
+}
+
 li {
     list-style: none;
+}
+
+#reilyNavBar .nav-link:hover {
+    transition: 0.5s ease;
+    background-color: rgb(99, 99, 99);
+    color: white;
+}
+#reilyNavBar .nav-link {
+    transition: 0.5s ease;
+    background-color: white;
+    color: black;
+}
+
+.featuredImg {
+    height: 400px;
+    width: 300px;
+    border-radius: 0.25em;
+    margin: 20px;
+}
+
+.indexLogo {
+    height: 25rem;
+    width: 25rem;
+}
+
+.footerLogo {
+    height: 5rem;
 }

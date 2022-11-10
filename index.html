@@ -5,38 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+
     <title>Sara Reily Art</title>
 </head>
 <body>
-    <header class="jumbotron jumbotron-fluid bg-white m-0">
+    <header class="jumbotron jumbotron-fluid bg-white shadow pt-1 pb-0 my-0">
         <div class="container">
             <div class="row">
+                <div class="col m-2">
+                    <h1 class="text-center display-1">Sara Reily Art</h1>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col">
-                    <h1 class="text-center">Sara Reily Art</h1>
+                    <nav class="navbar navbar-expand-sm navbar-dark sticky-top mb-0 pb-0">
+                        <div class="container">
+                            <div class="collapse navbar-collapse" id="reilyNavBar">
+                                <ul class="navbar-nav w-100 nav-fill">
+                                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Art</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
             </div>
         </div>
     </header>
 
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top shadow bg-light">
-        <div class="container">
-            <div class="collapse navbar-collapse" id="nucampNavbar">
-                <ul class="navbar-nav w-100 nav-fill">
-                    <li class="nav-item active">Home</li>
-                    <li class="nav-item">About</li>
-                    <li class="nav-item">Art</li>
-                    <li class="nav-item">Shop</li>
-                    <li class="nav-item">Contact</li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
     <div class="container">
         <div class="row text-center my-5">
-            <div class="col-4">IMAGE</div>
-            <div class="col-4">IMAGE</div>
-            <div class="col-4">IMAGE</div>
+            <div class="col col-md-6 col-lg-4"><img class="featuredImg shadow" src="/imgs/dog-hat_crop2.jpg" alt=""></div>
+            <div class="col col-md-6 col-lg-4"><img class="featuredImg shadow" src="/imgs/kristi-trees.jpg" alt=""></div>
+            <div class="col col-lg-4"><img class="featuredImg shadow" src="/imgs/cat-window.jpg" alt=""></div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 offset-1">
+                <img class="indexLogo" src="/imgs/logo-text.PNG" alt="">
+            </div>
+            <div class="col-md-5 align-self-center text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+            </div>
         </div>
     </div>
 
@@ -44,7 +57,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-3">
-                    <ul>
+                    <ul class="pl-0">
                         <li>Home</li>
                         <li>About</li>
                         <li>Art</li>
@@ -52,14 +65,22 @@
                         <li>Contact</li>
                     </ul>
                 </div>
-                <div class="col-6 text-center">
-                    <ul>
-                        <li>IMAGE</li>
-                        <li>Sara Reily Art</li>
+                <div class="col-6 text-center align-self-center">
+                    <ul class="pl-0">
+                        <li><img class="footerLogo" src="/imgs/logo-circle.PNG" alt=""></li>
+                        <li><h6>Sara Reily Art</h6></li>
                     </ul>
                 </div>
-                <div class="col-3"></div>
+                <div class="col-3 text-right pl-0">
+                    <ul class="text-right">
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
             </div>
+        </div>
+        <div class="text-center bg-secondary m-0 p-3">
+            <h6 class="text-light m-0 p-0">2022 Copyright: sarareilyart.com</h6>
         </div>
     </footer>
     <script src="/js/scripts.js"></script>
