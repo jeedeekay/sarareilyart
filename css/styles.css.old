@@ -1,0 +1,63 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h6 {
+    /* font-family: 'Monoton', cursive; */
+    font-family: 'Cinzel', serif;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+#reilyNavBar .nav-link:hover {
+    transition: 0.5s ease;
+    background-color: rgb(99, 99, 99);
+    color: white;
+}
+#reilyNavBar .nav-link {
+    transition: 0.5s ease;
+    background-color: white;
+    color: #6c757d;
+}
+
+.featuredImg {
+    height: 400px;
+    width: 300px;
+    border-radius: 0.25em;
+    margin: 20px;
+}
+
+.indexLogo {
+    height: 25rem;
+    width: 25rem;
+}
+
+#footerLogo {
+    height: 5rem;
+    transition: 0.5s ease;
+    transform: scale(1);
+}
+
+#footerLogo:hover {
+    transition: 0.5s ease;
+    transform: scale(0.9);
+}
+
+.nav-link {
+    font-size:x-large;
+}
+
+#art-tab .active {
+    background-color: #6c757d;
+}
+
+#art-tab .nav-link {
+    color: #6c757d;
+}
+
+#art-tab .nav-link.active {
+    color:white;
+}
