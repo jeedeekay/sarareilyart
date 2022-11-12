@@ -49,3 +49,15 @@ li {
 .nav-link {
     font-size:x-large;
 }
+
+#art-tab .active {
+    background-color: #6c757d;
+}
+
+#art-tab .nav-link {
+    color: #6c757d;
+}
+
+#art-tab .nav-link.active {
+    color:white;
+}
