@@ -277,35 +277,11 @@
     </footer>
     
     <!-- build:js js/main.js -->
-    <script src="js/scripts.js"></script>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
     <!-- endbuild -->
-
-    <script>
-        $(function() {
-            $("#gallery-tab").click(function() {
-                $("#gallery-row").children().show();
-            });
-            $("#digital-tab").click(function() {
-                $("#gallery-row").children("div:not(.digital)").hide();
-                $("#gallery-row").children(".digital").show();
-            });
-            $("#acrylic-tab").click(function() {
-                $("#gallery-row").children("div:not(.acrylic)").hide();
-                $("#gallery-row").children(".acrylic").show();
-            });
-            $("#tattoos-tab").click(function() {
-                $("#gallery-row").children("div:not(.tattoo)").hide();
-                $("#gallery-row").children(".tattoo").show();
-            });
-            $("#doodles-tab").click(function() {
-                $("#gallery-row").children("div:not(.doodle)").hide();
-                $("#gallery-row").children(".doodle").show();
-            });
-        });
-    </script>
 
 </body>
 </html>
