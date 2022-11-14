@@ -2,7 +2,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-h1, h6 {
+h1, h2, h6 {
     /* font-family: 'Monoton', cursive; */
     font-family: 'Cinzel', serif;
     color: #000;
@@ -64,6 +64,7 @@ li {
 
 #navButton {
     border: none;
+    z-index: 1;
 }
 
 #art-tab {
