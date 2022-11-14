@@ -65,3 +65,21 @@ li {
 #navButton {
     border: none;
 }
+
+#art-tab {
+    a {
+        font-size: small;
+    }
+}
+
+#gallery-tabContent {
+    img {
+        width: 100%;
+    }
+}
+
+// Medium Viewport and up
+@media (min-width: 768px) {  
+    #art-tab {a {font-size: x-large;}}
+    #gallery-tabContent {img {width: 100%;}}
+  }

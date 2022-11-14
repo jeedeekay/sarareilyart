@@ -2,6 +2,7 @@ body {
   font-family: 'Times New Roman', Times, serif; }
 
 h1, h6 {
+  /* font-family: 'Monoton', cursive; */
   font-family: 'Cinzel', serif;
   color: #000; }
 
@@ -48,3 +49,18 @@ li {
 
 #art-tab .nav-link.active {
   color: white; }
+
+#navButton {
+  border: none; }
+
+#art-tab a {
+  font-size: small; }
+
+#gallery-tabContent img {
+  width: 100%; }
+
+@media (min-width: 768px) {
+  #art-tab a {
+    font-size: x-large; }
+  #gallery-tabContent img {
+    width: 100%; } }
