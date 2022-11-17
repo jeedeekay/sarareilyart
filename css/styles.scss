@@ -79,6 +79,15 @@ li {
     }
 }
 
+.contact-label {
+    font-weight: bold;
+    font-size: large;
+}
+
+textarea {
+    resize: none;
+}
+
 // Medium Viewport and up
 @media (min-width: 768px) {  
     #art-tab {a {font-size: x-large;}}

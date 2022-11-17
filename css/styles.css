@@ -60,6 +60,13 @@ li {
 #gallery-tabContent img {
   width: 100%; }
 
+.contact-label {
+  font-weight: bold;
+  font-size: large; }
+
+textarea {
+  resize: none; }
+
 @media (min-width: 768px) {
   #art-tab a {
     font-size: x-large; }
