@@ -1,0 +1,10 @@
+- add Required to contact
+- make form work
+- fix sm/md layout on art page
+- Replace lorem ipsum on index and about
+- Add CV content
+- make shop look better
+- fix shop script for mini
+- DOM loader script for images?
+- "Load more" for art?
+- Web size thumbnails
