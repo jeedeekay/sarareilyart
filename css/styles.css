@@ -64,16 +64,6 @@ li {
   font-weight: bold;
   font-size: large; }
 
-#gallery-row div {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-  justify-content: center; }
-
-#gallery-row a {
-  -ms-flex-item-align: center;
-  align-self: center; }
-
 textarea {
   resize: none; }
 
