@@ -58,25 +58,25 @@
                     <div class="form-group row">
                         <label for="firstName" class="offset-md-1 col-md-2 col-form-label">First Name</label>
                         <div class="col-md-9">
-                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required/>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="lastName" class="offset-md-1 col-md-2 col-form-label">Last Name</label>
                         <div class="col-md-9">
-                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required/>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="email" class="offset-md-1 col-md-2 col-form-label">Email</label>
                         <div class="col-md-9">
-                            <input type="text" class="form-control" id="email" name="email" placeholder="Email Address">
+                            <input type="text" class="form-control" id="email" name="email" placeholder="Email Address" required>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="reason" class="offset-md-1 col-md-2 col-form-label">Reason For Inquiry</label>
                         <div class="col-md-9">
-                            <select name="reason" id="reason" class="form-control">
+                            <select name="reason" id="reason" class="form-control" required>
                                 <option value="" class="text-secondary">--- select a reason ---</option>
                                 <option value="commission">Commission</option>
                                 <option value="event">Event</option>
@@ -87,7 +87,7 @@
                     <div class="form-group row">
                         <label for="message" class="offset-md-1 col-md-2 col-form-label">Message</label>
                         <div class="col-md-9">
-                            <textarea class="form-control" name="message" id="message" rows="10"></textarea>
+                            <textarea class="form-control" name="message" id="message" rows="10" required></textarea>
                             <button class="my-2 btn btn-primary font-weight-bold">Submit</button>
                         </div>
                     </div>
