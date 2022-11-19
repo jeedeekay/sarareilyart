@@ -6,7 +6,7 @@
     "lite": "lite-server",
     "scss": "node-sass -o css/ css/",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
-    "imagemin": "imagemin imgs/* -o dist/imgs && imagemin imgs/acrylic/* -o dist/imgs/acrylic && imagemin imgs/digital/* -o dist/imgs/digital && imagemin imgs/doodle/* -o dist/imgs/doodle && imagemin imgs/tattoo/* -o dist/imgs/tattoo",
+    "imagemin": "imagemin imgs/* -o dist/imgs && imagemin imgs/acrylic/* -o dist/imgs/acrylic && imagemin imgs/digital/* -o dist/imgs/digital && imagemin imgs/doodle/* -o dist/imgs/doodle && imagemin imgs/tattoo/* -o dist/imgs/tattoo && imagemin imgs/thumbnails/* -o dist/imgs/thumbnails",
     "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin shop.html -d dist --htmlmin -o dist/shop.html && usemin art.html -d dist --htmlmin -o dist/art.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin index.html -d dist --htmlmin -o dist/index.html",
     "clean": "rimraf dist",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",

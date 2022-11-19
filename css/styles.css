@@ -65,15 +65,14 @@ li {
   font-size: large; }
 
 #gallery-row div {
-  display: -ms-flexbox !important;
-  display: flex !important;
-  -ms-flex-pack: center !important;
-  justify-content: center !important;
-  vertical-align: middle; }
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center; }
 
 #gallery-row a {
-  -ms-flex-item-align: center !important;
-  align-self: center !important; }
+  -ms-flex-item-align: center;
+  align-self: center; }
 
 textarea {
   resize: none; }

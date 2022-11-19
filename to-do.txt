@@ -7,4 +7,3 @@
 - fix shop script for mini
 - DOM loader script for images?
 - "Load more" for art?
-- Web size thumbnails
