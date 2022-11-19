@@ -26,6 +26,8 @@
   },
   "homepage": "https://github.com/jeedeekay/sarareilyart#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "copyfiles": "^2.2.0",
     "imagemin-cli": "^5.1.0",
     "lite-server": "^2.6.1",
